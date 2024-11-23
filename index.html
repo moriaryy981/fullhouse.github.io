@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>線上菜單</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>線上菜單</h1>
+    <nav>
+      <ul class="menu-tabs">
+        <li data-category="beer" class="active">啤酒</li>
+        <li data-category="draft">生啤酒</li>
+        <li data-category="cocktail">調酒</li>
+        <li data-category="soft-drink">飲料</li>
+        <li data-category="sawa">沙瓦</li>
+        <li data-category="skewers">串燒</li>
+        <li data-category="fried">炸物</li>
+        <li data-category="single-whisky">單杯威士忌</li>
+        <li data-category="whisky">威士忌</li>
+      </ul>
+    </nav>
+    <!-- 搜尋欄 -->
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="搜尋商品...">
+      <button id="search-button">搜尋</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="menu-container">
+      <!-- 動態生成分類內容 -->
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
